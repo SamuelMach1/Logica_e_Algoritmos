@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09 - Operadores Lógicos</title>
+    <script>
+    /*
+        && -> E
+        || -> OU 
+        ! -> NEGAÇÃO
+    */
+    // Exemplo 01 - negação
+    //document.write(!true) O simbolo '!' representa a negação
+
+    // Exemplo 02 - ||
+    var salario = prompt("Insira o seu salário")
+    var pagamento = "a vista";
+
+    if((salario >= 1000) && (pagamento == "a vista")){
+        document.write("Você irá receber um desconto")
+    }else{
+        document.write("Não haverá desconto")
+    }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
